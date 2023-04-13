@@ -5,9 +5,11 @@
 ![image](https://user-images.githubusercontent.com/95393815/231760656-03802f11-2b73-4a5e-b7e7-4478e821b93c.png)
 
 <h3>Responsive design: Desktop</h3>
+
 ![image](https://user-images.githubusercontent.com/95393815/231768460-95c26c90-7e3a-4aea-a258-eb51175d0734.png)
 
 <h3>Responsive design: mobile phones</h3>
+
 ![image](https://user-images.githubusercontent.com/95393815/231769191-b235f757-a965-43cc-8515-2149c8b52c94.png)
 
 ![image](https://user-images.githubusercontent.com/95393815/231769223-a14c6fd4-0c6c-40ad-8b25-5a5cb0458904.png)
