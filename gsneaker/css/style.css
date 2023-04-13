@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.product-name {
+color: #303841;
+font-size: 700;
+font-weight: bold;
+}
+
+
+
+.product_image {
+max-width: 300px;
+margin: 0 auto;
+}
+
+
+
+
+
+
+h4 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.cart_item_name {
+font-weight: 700;
+}
+
+.overlay {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(192, 192, 192, 0.1);
+font-family: cursive;
+font-size: xx-large;
+cursor: wait;
+letter-spacing: 0.05em;
+text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.paypal {
+display: none;
+}
+
+.anyClass {
+    height:150px;
+    overflow-y: scroll;
+  }
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn-warning {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    padding: 12px 14px;
+    font-size: 13px;
+    /* margin-right: 60px; */
+    color: #303841;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #FAD02C;
+    border-radius: 40px;
+    background: #FAD02C;
+    transition: all 0.3s ease 0s;
+}
+  
+.btn-warning:hover {
+    background: #F2E34C;
+    border: 2px solid #F2E34C;
+}
+
+#ourCart{
+    border-radius: 25px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    height: 550px;
+}
+
+#yourCart{
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    height: 550px;
+}
+
+#ourCart{
+    height: 550px;
+}
+#yourCart{
+    height: 550px;
+}
+
+.product-price{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+#listShoes{
+    height: 440px;
+}
+
+#product-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img_ourcart{
+    width: 50px; height: 25px;
+}
+
+.btn_remove{
+    border: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FAD02C;
+    border: #FAD02C;
+    float: right; 
+
+}
+.btn_remove:hover{
+    background-color: #F2E34C;
+}
+
+.btn_btn{
+    border: 1px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #b5b2a9;
+    border: #b5b2a9;
+}
+.btn_btn:hover{
+    background-color: #d5d5d5;
+}
+
+.img_plus{
+    width: 12px;
+    height: 12px;
+}
+
+.img_remove{
+    width: 15px;
+    height: 15px;
+}
+
+.cart_item_price{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 600px) {
+    #ourCart, #yourCart {
+        width: 300px;
+    }
+}

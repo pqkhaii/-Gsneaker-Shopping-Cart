@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/wave.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+    <div class="ocean">
+      <div class="wave"></div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center flex-wrap" style="gap: 32px; padding-top: 100px;">
+        
+        <!-- Our Cart  -->
+        <div id="ourCart" class="col-sm-4">
+          <div class="card_top">
+            <img class="img_ourcart" src="img/nike.png">
+            <p></p>
+          </div>
+          <div class="card_title">
+            <h4><strong>Our cart</strong></h4>
+          </div>
+          
+          <!-- <div class="card_body"></div> -->
+          
+          <!-- List Shoes -->
+          <p></p>
+          <div class="overflow-auto" id="listShoes" ></div>
+        </div>
+
+        <!-- Your Cart  -->
+         <div id="yourCart" class="col-sm-4 d-flex flex-column">
+          <div class="card_top">
+            <img class="img_ourcart" src="img/nike.png">
+            <p></p>
+          </div>
+          <div class="card_title">
+            <h4><strong>Your cart</strong></h4>
+          </div>
+          
+          <!-- <div class="card_body overflow-auto"></div> -->
+          
+          <!-- List Shoes -->
+          <p></p>
+          <div class="overflow-auto flex-grow-1" id="cart">
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>    
+
+    <script src="main.js"></script>
+  </body>
+</html>
